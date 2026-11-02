@@ -1,87 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Rithick Paul's developer portfolio">
-  <title>Rithick Paul | Developer Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
-</head>
-<body>
-<header class="site-header">
-  <nav class="nav container">
-    <a class="logo" href="#home">RP<span>.</span></a>
-    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
-    <ul class="nav-links" id="navLinks">
-      <li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li><li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-</header>
-<main>
-<section class="hero container" id="home">
-  <div>
-    <p class="eyebrow">HELLO, I'M</p><h1>Rithick <span>Paul</span></h1>
-    <h2>Aspiring Developer &amp; Problem Solver</h2>
-    <p class="intro">I enjoy learning programming, building useful projects, and turning ideas into working solutions.</p>
-    <div class="hero-actions"><a class="button primary" href="#projects">Explore my work</a><a class="button secondary" href="#contact">Contact me</a></div>
-    <p class="availability">Currently learning, building and improving every day.</p>
-  </div>
-  <div class="hero-art"><div class="code-card">
-    <div class="code-top"><i></i><i></i><i></i><span>developer.js</span></div>
-    <pre><code><span class="purple">const</span> developer = {
-  name: <span class="green">"Rithick Paul"</span>,
-  interests: [
-    <span class="green">"Programming"</span>,
-    <span class="green">"Problem Solving"</span>,
-    <span class="green">"Building Projects"</span>
-  ],
-  mindset: <span class="green">"Keep learning"</span>
-};</code></pre>
-  </div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div></div>
+
+<section id="contact" class="contact">
+    <div class="container">
+        <h2>Get In Touch</h2>
+        <p>
+            I'm always open to connecting, discussing projects,
+            and exploring new opportunities.
+        </p>
+
+        <div class="contact-links">
+            <a href="mailto:rithickpaul1421@gmail.com">
+                <i class="fas fa-envelope"></i>
+                Email: rithickpaul1421@gmail.com
+            </a>
+
+            <a href="https://www.linkedin.com/in/rithick-paul-2a155b342/"
+               target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-linkedin"></i>
+                LinkedIn
+            </a>
+
+            <a href="https://github.com/rithickpaul"
+               target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+                GitHub
+            </a>
+        </div>
+    </div>
 </section>
-<section class="section container" id="about">
-  <div class="section-heading"><p class="eyebrow">GET TO KNOW ME</p><h2>About <span>Me</span></h2></div>
-  <div class="about-panel">
-    <p>I'm an aspiring developer interested in software development and technology. I have been learning Java and Python, and I'm developing my programming logic with C and C++.</p>
-    <p>I like exploring new tools, participating in project-based challenges, and working with a team to solve practical problems. My goal is to keep strengthening my fundamentals while creating useful projects.</p>
-  </div>
-</section>
-<section class="section container" id="skills">
-  <div class="section-heading"><p class="eyebrow">WHAT I'M LEARNING</p><h2>My <span>Skills</span></h2></div>
-  <div class="skill-grid">
-    <article class="skill-card"><span class="skill-icon">C</span><h3>C</h3><p>Programming fundamentals and logic building</p></article>
-    <article class="skill-card"><span class="skill-icon">C++</span><h3>C++</h3><p>Problem solving and data processing</p></article>
-    <article class="skill-card"><span class="skill-icon">Py</span><h3>Python</h3><p>Programming and project development</p></article>
-    <article class="skill-card"><span class="skill-icon">J</span><h3>Java</h3><p>Object-oriented programming basics</p></article>
-    <article class="skill-card"><span class="skill-icon">&lt;/&gt;</span><h3>HTML &amp; CSS</h3><p>Building and styling web pages</p></article>
-    <article class="skill-card"><span class="skill-icon">JS</span><h3>JavaScript</h3><p>Adding interactivity to websites</p></article>
-  </div>
-</section>
-<section class="section container" id="projects">
-  <div class="section-heading"><p class="eyebrow">WHAT I'VE BEEN WORKING ON</p><h2>Featured <span>Projects</span></h2></div>
-  <div class="project-grid">
-    <article class="project-card"><div class="project-number">01</div><h3>Speed Demon – Log Ingestion</h3>
-      <p>A C++ log-processing project focused on parsing large datasets and calculating endpoint statistics, latency percentiles and hourly error rates.</p>
-      <div class="tags"><span>C++</span><span>Docker</span><span>Performance</span></div>
-      <a href="https://github.com/rithickpaul/speed-demon-ingest" target="_blank" rel="noopener">View GitHub repository ↗</a></article>
-    <article class="project-card"><div class="project-number">02</div><h3>TerraGuard AI</h3>
-      <p>A hackathon concept exploring AI-supported medical delivery drones to improve access to essential medical supplies.</p>
-      <div class="tags"><span>AI Concept</span><span>Healthcare</span><span>Hackathon</span></div><span class="project-note">Concept / hackathon project</span></article>
-    <article class="project-card"><div class="project-number">03</div><h3>Personal Portfolio</h3>
-      <p>A responsive personal website created to introduce me, share my skills and highlight my programming projects.</p>
-      <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><span class="project-note">You're viewing it now</span></article>
-  </div>
-</section>
-<section class="contact-section" id="contact"><div class="container contact-inner">
-  <div><p class="eyebrow">LET'S CONNECT</p><h2>Have a project or idea?</h2><p>I'm interested in learning, collaborating and discussing technology.</p></div>
-  <div class="contact-links">
-    <a href="https://github.com/rithickpaul" target="_blank" rel="noopener">GitHub ↗</a>
-    <a href="#" id="linkedinLink">LinkedIn (add your profile) ↗</a>
-    <a href="mailto:rithickpaul1421@gmail.com">Email (update address) ↗</a>
-  </div>
-</div></section>
-</main>
-<footer class="footer"><p>© <span id="year"></span> Rithick Paul. Built with HTML, CSS &amp; JavaScript.</p><a href="#home">Back to top ↑</a></footer>
-</body></html>
