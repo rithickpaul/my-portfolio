@@ -1353,3 +1353,23 @@ body > :not(.ambient-background) {
     filter: drop-shadow(0 0 25px #a855f7) !important;
 }
 
+
+/* FINAL FIX - SHOW 3D OBJECTS ABOVE BACKGROUND WAVES */
+.ambient-background .floating-3d {
+    z-index: 20 !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    pointer-events: none !important;
+}
+
+.ambient-background .sphere,
+.ambient-background .ring,
+.ambient-background .crystal {
+    display: block !important;
+}
+
+.ambient-background::before,
+.ambient-background::after {
+    pointer-events: none;
+}
+
