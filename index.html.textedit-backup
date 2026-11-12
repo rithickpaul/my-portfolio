@@ -1,0 +1,377 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2775.2">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #0000e9; -webkit-text-stroke: #0000e9; min-height: 14.0px}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #0000e9; -webkit-text-stroke: #0000e9}
+    span.s1 {text-decoration: underline ; font-kerning: none}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
+<p class="p2"><span class="s1">&lt;html lang="en"&gt;</span></p>
+<p class="p2"><span class="s1">&lt;head&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>&lt;meta name="description" content="Rithick Paul's personal portfolio - aspiring software developer, programmer and hackathon enthusiast."&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>&lt;title&gt;Rithick Paul | Portfolio&lt;/title&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>&lt;link rel="stylesheet" href="./style.css"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>&lt;script src="./script.js" defer&gt;&lt;/script&gt;</span></p>
+<p class="p2"><span class="s1">&lt;/head&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">&lt;body&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>&lt;!-- NAVIGATION --&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>&lt;header class="navbar"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>&lt;nav class="nav-container"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>&lt;a href="#home" class="logo"&gt;Rithick&lt;span&gt;.&lt;/span&gt;&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>&lt;button class="menu-toggle" id="menu-toggle"</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>aria-label="Toggle navigation menu"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>☰</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>&lt;ul class="nav-links" id="nav-links"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;li&gt;&lt;a href="#home"&gt;Home&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;li&gt;&lt;a href="#about"&gt;About Me&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;li&gt;&lt;a href="#skills"&gt;Skills&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;li&gt;&lt;a href="#projects"&gt;Project Details&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;li&gt;&lt;a href="#contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/ul&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/nav&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/header&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>&lt;!-- HOME / HERO --&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>&lt;main&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>&lt;section class="hero section" id="home"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="hero-content"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;p class="hero-greeting"&gt;HELLO, WORLD! 👋&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;h1&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>I'm &lt;span class="gradient-text"&gt;Rithick Paul&lt;/span&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/h1&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;h2 class="typing-heading"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;span id="typing-text"&gt;Aspiring Software Developer&lt;/span&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;span class="typing-cursor"&gt;|&lt;/span&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;p class="hero-description"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>I enjoy building software, solving problems and exploring</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>new technologies. I'm constantly learning and turning</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>creative ideas into practical solutions.</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div class="hero-buttons"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#projects" class="btn btn-primary"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>Explore My Work</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#contact" class="btn btn-secondary"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>Contact Me</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/a&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div class="social-links"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="https://github.com/rithickpaul"</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                       </span>target="_blank" rel="noopener noreferrer"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>GitHub ↗</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/a&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="https://www.linkedin.com/"</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                       </span>target="_blank" rel="noopener noreferrer"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>LinkedIn ↗</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/a&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="hero-card"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div class="code-window"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div class="window-header"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;span&gt;&lt;/span&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;span&gt;&lt;/span&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;span&gt;&lt;/span&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div class="code-content"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;p&gt;&lt;span class="code-purple"&gt;class&lt;/span&gt; Developer:&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;p class="indent"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                            </span>name = &lt;span class="code-green"&gt;"Rithick"&lt;/span&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;p class="indent"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                            </span>skills = [</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;p class="indent2"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;span class="code-green"&gt;"Python"&lt;/span&gt;,</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;span class="code-green"&gt;"Java"&lt;/span&gt;,</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;p class="indent2"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;span class="code-green"&gt;"C/C++"&lt;/span&gt;,</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;span class="code-green"&gt;"Web"&lt;/span&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;p class="indent"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                            </span>]</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;p class="indent"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                            </span>passion = &lt;span class="code-green"&gt;"Building"&lt;/span&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;br&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;span class="code-purple"&gt;print&lt;/span&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                            </span>(&lt;span class="code-green"&gt;"Hello, World!"&lt;/span&gt;)</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;p class="code-comment"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                            </span># Always learning something new</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>&lt;!-- ABOUT --&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>&lt;section class="section about-section" id="about"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="section-heading"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;p class="section-label"&gt;GET TO KNOW ME&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;h2&gt;About &lt;span class="gradient-text"&gt;Me&lt;/span&gt;&lt;/h2&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;p&gt;A little introduction about myself.&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="about-card"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;h3&gt;Who am I?&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>I'm Rithick Paul, an aspiring software developer</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>passionate about programming, technology and innovation.</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>I enjoy learning different programming languages,</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>understanding how things work and creating useful</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>applications.</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>I have explored programming with C, C++, Python and Java,</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>along with web development. I also enjoy participating</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>in hackathons because they challenge me to think</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>creatively, collaborate and build solutions.</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>My goal is to keep improving my technical skills and</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>become a developer who builds meaningful software.</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>&lt;!-- SKILLS --&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>&lt;section class="section" id="skills"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="section-heading"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;p class="section-label"&gt;WHAT I WORK WITH&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;h2&gt;My &lt;span class="gradient-text"&gt;Skills&lt;/span&gt;&lt;/h2&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;p&gt;Technologies and languages I'm learning and using.&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="skills-grid"&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div class="skill-card"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div class="skill-icon"&gt;C&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;h3&gt;C Programming&lt;/h3&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;p&gt;Programming fundamentals and logic building.&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div class="skill-card"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div class="skill-icon"&gt;C++&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;h3&gt;C++&lt;/h3&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;p&gt;Problem solving and object-oriented programming.&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div class="skill-card"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div class="skill-icon"&gt;🐍&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;h3&gt;Python&lt;/h3&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;p&gt;Programming, automation and application development.&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div class="skill-card"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div class="skill-icon"&gt;☕&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;h3&gt;Java&lt;/h3&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;p&gt;Object-oriented programming and application logic.&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div class="skill-card"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div class="skill-icon"&gt;🌐&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;h3&gt;HTML &amp; CSS&lt;/h3&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;p&gt;Building and styling responsive websites.&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div class="skill-card"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div class="skill-icon"&gt;JS&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;h3&gt;JavaScript&lt;/h3&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;p&gt;Adding interactivity to web applications.&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>&lt;!-- PROJECTS --&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>&lt;section class="section" id="projects"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="section-heading"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;p class="section-label"&gt;MY WORK&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;h2&gt;Project &lt;span class="gradient-text"&gt;Details&lt;/span&gt;&lt;/h2&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;p&gt;Some projects and ideas I've worked on.&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="projects-grid"&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;article class="project-card"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div class="project-number"&gt;01&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;h3&gt;Speed Demon&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>A high-performance log ingestion and processing</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>project designed to process millions of structured</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>log records efficiently.</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div class="tech-tags"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;span&gt;C++&lt;/span&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;span&gt;Docker&lt;/span&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;span&gt;Performance&lt;/span&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="https://github.com/rithickpaul/speed-demon-ingest"</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                       </span>target="_blank" rel="noopener noreferrer"</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                       </span>class="project-link"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>View Project ↗</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/a&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/article&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;article class="project-card"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div class="project-number"&gt;02&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;h3&gt;TerraGuard AI&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>A hackathon project concept focused on using</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>intelligent drone-based delivery solutions</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>to improve medical supply distribution.</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div class="tech-tags"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;span&gt;AI&lt;/span&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;span&gt;Drones&lt;/span&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;span&gt;Innovation&lt;/span&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="#contact" class="project-link"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>Learn More ↗</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/a&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/article&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;article class="project-card"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div class="project-number"&gt;03&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;h3&gt;Personal Portfolio&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>My personal portfolio website showcasing my</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>skills, projects, learning journey and</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>interests in software development.</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;div class="tech-tags"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;span&gt;HTML&lt;/span&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;span&gt;CSS&lt;/span&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;span&gt;JavaScript&lt;/span&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;a href="https://github.com/rithickpaul/my-portfolio"</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                       </span>target="_blank" rel="noopener noreferrer"</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                       </span>class="project-link"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>View Source ↗</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/a&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/article&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>&lt;!-- CONTACT --&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>&lt;section class="section contact-section" id="contact"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="section-heading"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;p class="section-label"&gt;LET'S CONNECT&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;h2&gt;Contact &lt;span class="gradient-text"&gt;Me&lt;/span&gt;&lt;/h2&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;p&gt;Have an idea, opportunity or project? Let's connect.&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="contact-card"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;h3&gt;Let's build something together!&lt;/h3&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>I'm always interested in learning, collaborating</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>and exploring new opportunities.</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div class="contact-details"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;strong&gt;Email:&lt;/strong&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;a href="mailto:rithickpaul@gmail.com"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                            </span>rithickpaul@gmail.com</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/a&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;strong&gt;GitHub:&lt;/strong&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;a href="https://github.com/rithickpaul"</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                           </span>target="_blank" rel="noopener noreferrer"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                            </span>github.com/rithickpaul</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/a&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;strong&gt;LinkedIn:&lt;/strong&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;a href="https://www.linkedin.com/"</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                           </span>target="_blank" rel="noopener noreferrer"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                            </span>Connect on LinkedIn</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/a&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;a href="mailto:rithickpaul@gmail.com"</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                   </span>class="btn btn-primary"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                    </span>Say Hello ✉</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/a&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/main&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>&lt;!-- FOOTER --&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>&lt;footer class="footer"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>&lt;p&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>Designed and built by</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>&lt;span class="gradient-text"&gt;Rithick Paul&lt;/span&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>&lt;p&gt;© &lt;span id="year"&gt;&lt;/span&gt; All rights reserved.&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>&lt;a href="#home" class="back-to-top"&gt;Back to top ↑&lt;/a&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/footer&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">&lt;/body&gt;</span></p>
+<p class="p2"><span class="s1">&lt;/html&gt;</span></p>
+</body>
+</html>

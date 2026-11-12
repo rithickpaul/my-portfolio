@@ -1,0 +1,360 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rithick Paul's personal portfolio - aspiring software developer, programmer and hackathon enthusiast.">
+    <title>Rithick Paul | Portfolio</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="navbar">
+        <nav class="nav-container">
+            <a href="#home" class="logo">Rithick<span>.</span></a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                    aria-label="Toggle navigation menu">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Project Details</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- HOME / HERO -->
+    <main>
+
+        <section class="hero section" id="home">
+            <div class="hero-content">
+                <p class="hero-greeting">HELLO, WORLD! 👋</p>
+
+                <h1>
+                    I'm <span class="gradient-text">Rithick Paul</span>
+                </h1>
+
+                <h2 class="typing-heading">
+                    <span id="typing-text">Aspiring Software Developer</span>
+                    <span class="typing-cursor">|</span>
+                </h2>
+
+                <p class="hero-description">
+                    I enjoy building software, solving problems and exploring
+                    new technologies. I'm constantly learning and turning
+                    creative ideas into practical solutions.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        Explore My Work
+                    </a>
+
+                    <a href="#contact" class="btn btn-secondary">
+                        Contact Me
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/rithickpaul"
+                       target="_blank" rel="noopener noreferrer">
+                        GitHub ↗
+                    </a>
+
+                    <a href="https://www.linkedin.com/"
+                       target="_blank" rel="noopener noreferrer">
+                        LinkedIn ↗
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-card">
+                <div class="code-window">
+                    <div class="window-header">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="code-content">
+                        <p><span class="code-purple">class</span> Developer:</p>
+                        <p class="indent">
+                            name = <span class="code-green">"Rithick"</span>
+                        </p>
+                        <p class="indent">
+                            skills = [
+                        </p>
+                        <p class="indent2">
+                            <span class="code-green">"Python"</span>,
+                            <span class="code-green">"Java"</span>,
+                        </p>
+                        <p class="indent2">
+                            <span class="code-green">"C/C++"</span>,
+                            <span class="code-green">"Web"</span>
+                        </p>
+                        <p class="indent">
+                            ]
+                        </p>
+                        <p class="indent">
+                            passion = <span class="code-green">"Building"</span>
+                        </p>
+                        <br>
+                        <p>
+                            <span class="code-purple">print</span>
+                            (<span class="code-green">"Hello, World!"</span>)
+                        </p>
+                        <p class="code-comment">
+                            # Always learning something new
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ABOUT -->
+        <section class="section about-section" id="about">
+            <div class="section-heading">
+                <p class="section-label">GET TO KNOW ME</p>
+                <h2>About <span class="gradient-text">Me</span></h2>
+                <p>A little introduction about myself.</p>
+            </div>
+
+            <div class="about-card">
+                <h3>Who am I?</h3>
+
+                <p>
+                    I'm Rithick Paul, an aspiring software developer
+                    passionate about programming, technology and innovation.
+                    I enjoy learning different programming languages,
+                    understanding how things work and creating useful
+                    applications.
+                </p>
+
+                <p>
+                    I have explored programming with C, C++, Python and Java,
+                    along with web development. I also enjoy participating
+                    in hackathons because they challenge me to think
+                    creatively, collaborate and build solutions.
+                </p>
+
+                <p>
+                    My goal is to keep improving my technical skills and
+                    become a developer who builds meaningful software.
+                </p>
+            </div>
+        </section>
+
+
+        <!-- SKILLS -->
+        <section class="section" id="skills">
+            <div class="section-heading">
+                <p class="section-label">WHAT I WORK WITH</p>
+                <h2>My <span class="gradient-text">Skills</span></h2>
+                <p>Technologies and languages I'm learning and using.</p>
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <div class="skill-icon">C</div>
+                    <h3>C Programming</h3>
+                    <p>Programming fundamentals and logic building.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">C++</div>
+                    <h3>C++</h3>
+                    <p>Problem solving and object-oriented programming.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🐍</div>
+                    <h3>Python</h3>
+                    <p>Programming, automation and application development.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">☕</div>
+                    <h3>Java</h3>
+                    <p>Object-oriented programming and application logic.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <h3>HTML & CSS</h3>
+                    <p>Building and styling responsive websites.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">JS</div>
+                    <h3>JavaScript</h3>
+                    <p>Adding interactivity to web applications.</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- PROJECTS -->
+        <section class="section" id="projects">
+            <div class="section-heading">
+                <p class="section-label">MY WORK</p>
+                <h2>Project <span class="gradient-text">Details</span></h2>
+                <p>Some projects and ideas I've worked on.</p>
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <div class="project-number">01</div>
+
+                    <h3>Speed Demon</h3>
+
+                    <p>
+                        A high-performance log ingestion and processing
+                        project designed to process millions of structured
+                        log records efficiently.
+                    </p>
+
+                    <div class="tech-tags">
+                        <span>C++</span>
+                        <span>Docker</span>
+                        <span>Performance</span>
+                    </div>
+
+                    <a href="https://github.com/rithickpaul/speed-demon-ingest"
+                       target="_blank" rel="noopener noreferrer"
+                       class="project-link">
+                        View Project ↗
+                    </a>
+                </article>
+
+
+                <article class="project-card">
+                    <div class="project-number">02</div>
+
+                    <h3>TerraGuard AI</h3>
+
+                    <p>
+                        A hackathon project concept focused on using
+                        intelligent drone-based delivery solutions
+                        to improve medical supply distribution.
+                    </p>
+
+                    <div class="tech-tags">
+                        <span>AI</span>
+                        <span>Drones</span>
+                        <span>Innovation</span>
+                    </div>
+
+                    <a href="#contact" class="project-link">
+                        Learn More ↗
+                    </a>
+                </article>
+
+
+                <article class="project-card">
+                    <div class="project-number">03</div>
+
+                    <h3>Personal Portfolio</h3>
+
+                    <p>
+                        My personal portfolio website showcasing my
+                        skills, projects, learning journey and
+                        interests in software development.
+                    </p>
+
+                    <div class="tech-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                    <a href="https://github.com/rithickpaul/my-portfolio"
+                       target="_blank" rel="noopener noreferrer"
+                       class="project-link">
+                        View Source ↗
+                    </a>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- CONTACT -->
+        <section class="section contact-section" id="contact">
+            <div class="section-heading">
+                <p class="section-label">LET'S CONNECT</p>
+                <h2>Contact <span class="gradient-text">Me</span></h2>
+                <p>Have an idea, opportunity or project? Let's connect.</p>
+            </div>
+
+            <div class="contact-card">
+                <h3>Let's build something together!</h3>
+
+                <p>
+                    I'm always interested in learning, collaborating
+                    and exploring new opportunities.
+                </p>
+
+                <div class="contact-details">
+                    <p>
+                        <strong>Email:</strong>
+                        <a href="mailto:rithickpaul@gmail.com">
+                            rithickpaul@gmail.com
+                        </a>
+                    </p>
+
+                    <p>
+                        <strong>GitHub:</strong>
+                        <a href="https://github.com/rithickpaul"
+                           target="_blank" rel="noopener noreferrer">
+                            github.com/rithickpaul
+                        </a>
+                    </p>
+
+                    <p>
+                        <strong>LinkedIn:</strong>
+                        <a href="https://www.linkedin.com/"
+                           target="_blank" rel="noopener noreferrer">
+                            Connect on LinkedIn
+                        </a>
+                    </p>
+                </div>
+
+                <a href="mailto:rithickpaul@gmail.com"
+                   class="btn btn-primary">
+                    Say Hello ✉
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>
+            Designed and built by
+            <span class="gradient-text">Rithick Paul</span>
+        </p>
+
+        <p>© <span id="year"></span> All rights reserved.</p>
+
+        <a href="#home" class="back-to-top">Back to top ↑</a>
+    </footer>
+
+</body>
+</html>
